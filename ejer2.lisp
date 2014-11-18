@@ -3,8 +3,7 @@
    ((< n 2) 1) 
    (T (+ 
          (fibo (- n 1)) 
-         (fibo (- n 2))
-    ))))
+         (fibo (- n 2))))))
 
 (defun mult2-p (x)
   (if (= (mod x 2) 0)
@@ -18,5 +17,4 @@
       (+ 
 		   (fibo n) 
 			 (sum-fibo (- n 1))))
-    (T (sum-fibo (- n 1)))
-    ))
+    (T (sum-fibo (- n 1)))))
